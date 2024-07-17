@@ -1,5 +1,9 @@
 <template>
   <div>
+    <Head>
+      <Title>Gari | {{ product.title }}</Title>
+      <Meta name="description" :content="product.description" />
+    </Head>
     <div class="container mx-auto p-4">
       <div class="grid grid-cols-1 md:grid-cols-2 gap-7">
         <div>
@@ -9,7 +13,7 @@
             class="w-full h-96 object-cover"
           />
         </div>
-        <div class="flex flex-col justify-between p-3">
+        <div class="flex flex-col justify-between p-2">
           <div>
             <h1 class="text-3xl font-bold mb-5 text-red-400">
               {{ product.title }}
@@ -21,11 +25,14 @@
             <p class="text-gray-500">{{ product.description }}</p>
           </div>
 
-          <div class="flex justify-between mb-10">
+          <div class="flex justify-between mb-10 items-center mt-5">
            
-            <button class="bg-red-500 text-white px-4 py-2 rounded">
-              Add to Cart
+            <button class="bg-red-500 flex text-white px-4 py-2 rounded">
+             <i class="material-icons mr-2">add_shopping_cart</i>
+             <span>Add to Cart</span>
             </button>
+            <i class="material-icons clear-start text-red-500 ">favorite</i>
+       
           </div>
         </div>
       </div>

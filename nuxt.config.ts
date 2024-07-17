@@ -6,12 +6,16 @@ export default defineNuxtConfig({
   app:{
     head:{
       title:"Gari.com",
+
       meta:[
         {name:'description', content:"Gari gebeya"}
       ],
       link:[
-        {rel:'stylesheet', href:""}
+        {rel:'stylesheet', href:"https://fonts.googleapis.com/icon?family=Material+Icons"}
       ]
     }
+  },
+  runtimeConfig:{
+    currencyKey: process.env.CURRENCY_API_KEY
   }
 })
