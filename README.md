@@ -1,75 +1,15 @@
-# Nuxt 3 Minimal Starter
+# Gari Gebeya
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Gari Gebeya is a Nuxt.js demo project showcasing a product listing and product detail page. 
 
-## Setup
+## Screenshots
 
-Make sure to install the dependencies:
+### Product List
 
-```bash
-# npm
-npm install
+![Product List](./screen-shots/product-list.png)
 
-# pnpm
-pnpm install
+### Product Detail
 
-# yarn
-yarn install
+![Product Detail](./screen-shots/product-detail.png)
 
-# bun
-bun install
-```
 
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
