@@ -6,10 +6,10 @@ Gari Gebeya is a Nuxt.js demo project showcasing a product listing and product d
 
 ### Product List
 
-![Product List](./screen-shots/product-list.png)
+![Product List](./screenshots/product-list.png)
 
 ### Product Detail
 
-![Product Detail](./screen-shots/product-detail.png)
+![Product Detail](./screenshots/product-detail.png)
 
 
